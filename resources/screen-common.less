@@ -739,35 +739,9 @@ body :not( :checked ) > .toctogglespan:after {
 /* Color bars */
 
 .color-bar {
+	height: @color-height;
+	background: @gradient-bright;
 	width: 100%;
-}
-
-.color-left {
-	height: @color-height;
-	background: @red-dark;
-	width: 50%;
-	float: left;
-}
-
-.color-right {
-	display: inline-block;
-	height: @color-height;
-	background: @green-dark;
-	width: 50%;
-	float: right;
-}
-
-.color-middle-container {
-	max-width: @content-width;
-	margin: 0 auto -@color-height;
-	position: relative;
-}
-
-.color-middle {
-	height: @color-height;
-	background: @blue-dark;
-	margin-left: @column-left-size + 1em;
-	margin-right: @column-right-size + 1em;
 }
 
 /* Portlets */
