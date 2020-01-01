@@ -21,6 +21,11 @@ class TimelessVariablesModule extends ResourceLoaderSkinModule {
 			$backdrop = 'images/cat.svg';
 		}
 
+		if ( $backdrop === 'rpcs3.svg' ) {
+			// expand default
+			$backdrop = 'images/rpcs3.svg';
+		}
+
 		$vars = array_merge(
 			$vars,
 			[
