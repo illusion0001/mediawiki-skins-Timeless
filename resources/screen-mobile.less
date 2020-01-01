@@ -22,7 +22,8 @@
 #mw-header-nav-hack,
 #page-tools h2,
 #other-languages h2,
-#p-logo {
+#p-logo, 
+#p-logo-text {
 	display: none;
 }
 
@@ -135,12 +136,13 @@
 	.background-image-svg( 'images/gear-large-grey.svg', 'images/gear-large-grey.png' );
 }
 
-/* Logo */
+/* Search bar */
 
-#p-logo-text {
+#p-search {
 	position: absolute;
-	top: 0.75em;
+	top: 1em;
 	left: @content-padding + 4em;
+	right: @content-padding + 8em;
 	text-align: left;
 
 	a {
